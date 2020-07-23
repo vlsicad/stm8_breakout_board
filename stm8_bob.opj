@@ -1,0 +1,242 @@
+(ExpressProject "stm8_bob"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Amplifier.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Arithmetic.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\ATOD.OLB"
+        (Type "Schematic Library"))
+      (File
+         "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\BusDriverTransceiver.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\capsym.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Connector.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Counter.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Discrete.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\DRAM.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\ElectroMechanical.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\FIFO.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Filter.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\FPGA.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Gate.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Latch.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\LineDriverReceiver.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Mechanical.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MicroController.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MicroProcessor.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Misc.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Misc2.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Misc3.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MiscLinear.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MiscMemory.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MiscPower.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\MuxDecoder.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\OPAmp.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PassiveFilter.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PLD.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\PROM.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Regulator.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\ShiftRegister.olb"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\SRAM.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_17.2\tools\capture\LIBRARY\Transistor.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\stm8_bob.dsn"
+      (Type "Schematic Design"))
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\STM8_BOB24.brd")
+    ("Allegro Netlist Remove Etch" "TRUE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File"
+       "D:\newpprsdn\stm8_board\allegro\STM8_BOB23.brd")
+    (DRC_Scope "0")
+    (DRC_Action "1")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File "D:\NEWPPRSDN\STM8_BOARD\STM8_BOB.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\stm8_bob.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "Admin")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "d:\newpprsdn\stm8_board\stm8_bob.dsn")
+      (Path "Design Resources" "d:\newpprsdn\stm8_board\stm8_bob.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" "d:\newpprsdn\stm8_board\stm8_bob.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 278"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 104 1434 104 425")
+        (Scroll "513 730")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "D:\NEWPPRSDN\STM8_BOARD\STM8_BOB.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (10118192-0001LF
+      (FullPartName "10118192-0001LF.Normal")
+      (LibraryName
+         "D:\NEWPPRSDN\STM8_BOARD\10118192-0001LF\10118192-0001LF.OLB")
+      (DeviceIndex "0"))
+    (CH340
+      (FullPartName "CH340.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\CH340\CH340.OLB")
+      (DeviceIndex "0"))
+    (CRGH1206F3K9
+      (FullPartName "CRGH1206F3K9.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\CRGH1206F3K9\CRGH1206F3K9.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PTS636_SM43J_SMTR_LFS
+      (FullPartName "PTS636_SM43J_SMTR_LFS.Normal")
+      (LibraryName
+         "D:\NEWPPRSDN\STM8_BOARD\PTS636_SM43J_SMTR_LFS\PTS636_SM43J_SMTR_LFS.OLB")
+      (DeviceIndex "0"))
+    (WS-TASX_2P
+      (FullPartName "WS-TASX_2P.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\434121050816\434121050816.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR NON-POL"
+      (FullPartName "CAPACITOR NON-POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (MINIUSB20_TYPEB
+      (FullPartName "MINIUSB20_TYPEB.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\629105150521\629105150521.OLB")
+      (DeviceIndex "0"))
+    (MICRO-USB-TYPE-B-CONNECTOR
+      (FullPartName "MICRO-USB-TYPE-B-CONNECTOR.Normal")
+      (LibraryName
+         "D:\NEWPPRSDN\STM8_BOARD\10118192-0001LFUG\10118192-0001LF.OLB")
+      (DeviceIndex "0"))
+    (STM8S103F3P6
+      (FullPartName "STM8S103F3P6.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\STM8S103F3P6\STM8S103F3P6.OLB")
+      (DeviceIndex "0"))
+    (STM8S003F3
+      (FullPartName "STM8S003F3.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\STM8S003F3P6\STM8S003F3P6.OLB")
+      (DeviceIndex "0"))
+    (AMS1117
+      (FullPartName "AMS1117.Normal")
+      (LibraryName "D:\NEWPPRSDN\STM8_BOARD\AMS1117\AMS1117.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\newpprsdn\stm8_board\CH340")
+  (ISPCBBASICLICENSE "false"))
